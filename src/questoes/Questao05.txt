@@ -1,0 +1,6 @@
+Usando o ReactContext fica mais organizado a criação e a forma de passar os valores para os componentes que precisam dos valores, pois, ao passar os valores usando somente o Props Drilling, o código acaba ficando "desfocado" do componente final desejado, o código fica confuso e impreciso com redundancias e dificultando o gerenciamento dos fluxos.
+
+um exemplo que usamos context foi na ativade de pokemon:
+https://github.com/Gustavo-Almeida-M/Web-Faculdade/tree/main/src/components/PokemonProps
+
+link da ativade onde usei o context, de maneira simples, foi usado para simplificar e orgazinar a passagem de parametros para a api de pokemon e deixando mais separado o que cada parte do todo faz.
