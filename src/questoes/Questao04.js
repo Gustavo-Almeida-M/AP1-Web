@@ -8,7 +8,9 @@ const Questao04 = () => {
     const getCities = () => {
         return new Promise((resolve) => {
             const cities = [
-                { "capital": ["Dublin"], "population": 4994724 },
+                //testei Istambul para ver se realmente a organização estava funcionando
+                //{ "capital": ["Istambul"], "population": 1328700000 },
+                { "capital": ["Istambul"], "population": 13287000 },
                 { "capital": ["Nicosia"], "population": 1207361 },
                 { "capital": ["Madrid"], "population": 47351567 }
             ];
